@@ -1,12 +1,6 @@
-
+import { updateGameScore, decideGameWinner, printScore  } from './main';
 import { expect } from 'chai';
-// import { expect } from '../tennis-kata/node_modules/jasmine';
-import { describe, it } from 'mocha';
-import {
-  updateGameScore,
-  decideGameWinner,
-  printScore
-} from '../../play/tennis-kata/main'
+import 'mocha';
 
 describe('Player 1', () => {
   it('should win the game when the score is 4-0', () => {
@@ -113,3 +107,13 @@ describe('Game', () => {
     expect(score).equal('advantage player 2');
   });
 });
+
+
+
+// describe('First test', 
+//   () => { 
+//     it('should return true', () => { 
+//       const result = helloTest();
+//       expect(result).to.equal(true); 
+//   }); 
+// });
