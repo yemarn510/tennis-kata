@@ -107,13 +107,3 @@ describe('Game', () => {
     expect(score).equal('advantage player 2');
   });
 });
-
-
-
-// describe('First test', 
-//   () => { 
-//     it('should return true', () => { 
-//       const result = helloTest();
-//       expect(result).to.equal(true); 
-//   }); 
-// });
